@@ -11,7 +11,7 @@
 
 <div id="map" style="width: 100%; height: 500px;"></div>
 
-<script src="https://api-maps.yandex.ru/2.1/?apikey=e416a337-bc7d-40a3-bb41-d2662583fa5e&lang=en_US" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_YANDEX_GEO_APIKEY&lang=en_US" type="text/javascript"></script>
 <script type="text/javascript">
     ymaps.ready(init);
 
