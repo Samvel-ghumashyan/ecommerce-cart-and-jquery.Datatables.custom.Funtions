@@ -1,0 +1,94 @@
+@import "../assets/admin/css/bootstrap.min.css";
+@import "../assets/admin/css/all.min.css";
+@import "../assets/admin/css/adminlte.css";
+@import "../assets/admin/css/jquery.dataTables.min.css";
+
+
+
+
+
+/*@import '../assets/front/css/version/marketing.css';*/
+@import '../assets/front/css/colors.css';
+@import '../assets/front/css/responsive.css';
+
+
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+.prod_cards:hover {
+    border: 5px solid #0164d8;
+}
+
+/*.group {*/
+/*    padding: 2em;*/
+/*}*/
+
+.input-number {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    height: 54px;
+    width: 50%;
+}
+
+.input-number input {
+    border: none;
+    display: inline-block;
+    height: 100%;
+    padding: 0 10px;
+    outline: none;
+    position: relative;
+    width: calc(100% - 40px);
+}
+
+.input-number-increment,
+.input-number-decrement {
+    background-color: white;
+    border: 0;
+    border-left: 1px solid #e6ebee;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    position: absolute;
+    width: 28px;
+    height: 26px;
+    text-align: center;
+    right: 0;
+}
+
+.input-number-increment:hover:before {
+    border-bottom-color: #0073ba;
+}
+
+.input-number-decrement:hover:before {
+    border-top-color: #0073ba;
+}
+
+.input-number-increment {
+    border-bottom: 1px solid #e6ebee;
+    top: 0;
+}
+
+.input-number-decrement {
+    bottom: 0;
+}
+
+.input-number-increment:before,
+.input-number-decrement:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.input-number-increment:before {
+    border-bottom: 5px solid #0ca6f2;
+}
+
+.input-number-decrement:before {
+    border-top: 5px solid #0ca6f2;
+}
+
